@@ -1,0 +1,58 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #444;
+}
+
+.footer-logo img {
+    width: 100px;
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+.footer-nav {
+    text-align: center;
+}
+
+.footer-nav nav {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.footer-nav nav a {
+    color: white; /* Warna teks tautan putih */
+    text-decoration: none;
+}
+
+.footer-nav nav a:hover {
+    text-decoration: underline; /* Garis bawah saat hover */
+}
+
+.creator-name {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #aaa;
+}
+
+.footer-social a {
+    color: white;
+    margin-left: 15px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    color: #ddd; /* Warna saat hover untuk ikon */
+}

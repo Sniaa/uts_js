@@ -1,0 +1,84 @@
+/* Slide.css */
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #d2b48c; /* Warna cokelat muda atau krem */
+}
+
+.slide-content {
+    max-width: 500px;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.slide h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.slide p {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Gaya tombol */
+.slide button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745; /* Hijau */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+/* Efek hover untuk transparansi */
+.slide button:hover {
+    background-color: #28a745;
+    opacity: 0.8; /* Transparansi saat di-hover */
+}
+
+.slide-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+    .slide {
+        flex-direction: column; /* Stack content and image vertically on small screens */
+    }
+
+    .slide-content {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .slide button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+
+    .slide h1 {
+        font-size: 2rem;
+    }
+
+    .slide p {
+        font-size: 1rem;
+    }
+
+    .slide-image img {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+}

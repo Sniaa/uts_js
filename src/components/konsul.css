@@ -1,0 +1,31 @@
+.konsultasi {
+    text-align: center;
+    padding: 20px;
+}
+
+.konsultasi h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.konsultasi p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.konsultasi button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, opacity 0.3s ease; 
+    margin-top: -10px; /* Mengangkat tombol ke atas sedikit */
+}
+
+.konsultasi button:hover {
+    background-color: transparent; /* Warna saat hover menjadi transparan */
+    color: #4CAF50; /* Warna teks saat hover hijau */
+    border: 2px solid #4CAF50; /* Menambahkan border hijau saat hover */
+}
